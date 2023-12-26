@@ -1,5 +1,5 @@
 
-Step 1: Paste this folder in the ```res://addons/``` directory of your project  
+Step 1: Paste the ```DragAndDrop``` folder in the ```res://addons/``` directory of your project  
 <br>
 Step 2: Enable the plugin via ```Project>Project Settings>Plugins```<br>
 <br>
