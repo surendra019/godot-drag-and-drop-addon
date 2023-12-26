@@ -23,7 +23,7 @@ func _on_gui_input(event):
 		if event is InputEventScreenDrag:
 			if !pos_locked:
 				if touch_pos!=Vector2.ZERO:
-					parent.rect_global_position += (event.position-touch_pos)*self.rect_position
+					parent.rect_global_position += (event.position-touch_pos)*parent.rect_scale
 
 				
 		if event is InputEventScreenTouch:
